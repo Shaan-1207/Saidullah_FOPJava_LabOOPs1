@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class Employee {
     String email;
     String emailSuffix = "restrowork.com";
@@ -29,7 +28,6 @@ public class Employee {
         CredentialService credential = new CredentialService(fname, lname);
         credential.showCredentials();
         
-
 
         sc.close();
     }
